@@ -16,6 +16,7 @@ This project consisted on a automated Extraction, Transformation and Load pipeli
   - PostgreSQL
   - Pandas
   - SQLAlchemy
+  - Regular Expressions 
 
 ## Results
 - Final output table: 
@@ -32,5 +33,8 @@ The pipeline was created under the following assumptions:
 - The wikipedia dataset didn't have a IMDB ID, so I had to extract it from the url link given. 
 - Each dataset had to be cleaned on their own because they had overlapping columns, suck as 'Director' and 'Directed By', unecessary columns, many null values, TV shows, outliers, duplicates, incorrect data types, formatting, and other errors. 
 - The wikipedia movie data was in a json format. 
-- The ratings dataset had more than 26 million entries which generated a time constraint and a processing data challenge.
 - Not every every movie had a rating for each rating level. 
+- The ratings dataset had more than 26 million entries which generated a time constraint and a processing data challenge.
+
+![Screen Shot 2021-07-07 at 2 17 41 PM](https://user-images.githubusercontent.com/83378141/124817181-6e338e80-df37-11eb-8af9-e4fe1967b9c5.png)
+
