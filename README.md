@@ -32,7 +32,7 @@ The pipeline was created under the following assumptions:
 - I was able to join the wikipedia, kaggle, and ratings movie data on the IMDB ID column.
 - The wikipedia dataset didn't have a IMDB ID, so I had to extract it from the url link given. 
 - Each dataset had to be cleaned on their own because they had overlapping columns, suck as 'Director' and 'Directed By', unecessary columns, many null values, TV shows, outliers, duplicates, incorrect data types, formatting, and other errors. 
-- The wikipedia movie data was in a json format. 
+- The wikipedia movie data was in json format. 
 - Not every every movie had a rating for each rating level. 
 - The ratings dataset had more than 26 million entries which generated a time constraint and a processing data challenge.
 
